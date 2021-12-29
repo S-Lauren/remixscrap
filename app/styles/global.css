@@ -1,0 +1,127 @@
+.navbar {
+  height: 50px; 
+  width: 100%; 
+  background-color: rgb(46, 59, 68);
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px; 
+}
+
+.navbar-tab {
+  display: flex;
+  list-style: none;
+}
+.navbar-item:first-child a {
+  color: white; 
+  text-decoration: none; 
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-item:nth-child(2) a {
+  color: white; 
+  margin-left: 100px;
+  text-decoration: none; 
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table
+{
+    border-collapse: collapse;
+    background-color: white;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+
+}
+
+.main {
+  background-color: rgb(245, 245, 248);
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+
+}
+.row {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.add-btn {
+  width: 200px;
+  height: 50px; 
+  background-color: black;
+  color: white; 
+  border-radius: 50px;
+  border: none; 
+}
+
+.title-btn a {
+  font-weight: bolder;
+  color: white; 
+}
+
+.btn-container {
+  width: 100%; 
+  padding: 20px; 
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bolder;
+}
+
+.post-list {
+
+  padding: 10px; 
+  margin: 10px; 
+  background-color: white;
+  box-shadow: 2px 5px 5px rgb(167, 164, 164, 0.5);
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.post-description {
+  color: black; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.post-likes {
+  color: black; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.home-container  {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(45,40,157);
+  background: linear-gradient(180deg, rgba(45,40,157,1) 0%, rgba(0,212,255,1) 100%);
+}
