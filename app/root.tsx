@@ -42,7 +42,7 @@ export default function App() {
   );
 }
 
-const Layout: React.FC = ({ children }) => {
+export const Layout: React.FC = ({ children }) => {
   return (<>
     <nav className="navbar">
       <ul className="navbar-tab">
